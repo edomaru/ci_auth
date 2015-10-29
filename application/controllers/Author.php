@@ -6,6 +6,8 @@
  */
 class Author extends MY_Controller {	
 
+	protected $access = "Author";
+
 	public function index()
 	{
 		$this->load->view("header");

@@ -6,6 +6,8 @@
  */
 class Editor extends MY_Controller {
 
+	protected $access = array("Admin", "Editor");
+
 	public function index()
 	{
 		$this->load->view("header");
